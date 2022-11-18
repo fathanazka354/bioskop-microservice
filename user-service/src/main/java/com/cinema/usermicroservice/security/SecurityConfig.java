@@ -1,9 +1,9 @@
-package com.cinema.authmicroservice.security;
+package com.cinema.usermicroservice.security;
 
-import com.cinema.authmicroservice.security.filter.AuthenticationFilter;
-import com.cinema.authmicroservice.security.filter.ExceptionHandlerFilter;
-import com.cinema.authmicroservice.security.filter.JWTAuthorizationFilter;
-import com.cinema.authmicroservice.security.manager.CustomAuthenticationManager;
+import com.cinema.usermicroservice.security.filter.AuthenticationFilter;
+import com.cinema.usermicroservice.security.filter.ExceptionHandlerFilter;
+import com.cinema.usermicroservice.security.filter.JWTAuthorizationFilter;
+import com.cinema.usermicroservice.security.manager.CustomAuthenticationManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -21,7 +21,7 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
-import static com.cinema.authmicroservice.security.SecurityConstant.*;
+import static com.cinema.usermicroservice.security.SecurityConstant.*;
 
 @Configuration
 @EnableWebSecurity
@@ -46,6 +46,7 @@ public class SecurityConfig {
 //                .antMatchers("/api-docs.html").permitAll()
                 .antMatchers(HttpMethod.POST, REGISTER_PATH).permitAll()
                 .antMatchers(HttpMethod.DELETE).authenticated()
+                .antMatchers(CUSTOMER_PATH).authenticated()
                 .antMatchers(PAYMENT_PATH).permitAll()
                 .antMatchers(HttpMethod.GET, MOVIE_PATH).authenticated()
 //                .antMatchers(HttpMethod.GET, ).authenticated()

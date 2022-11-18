@@ -1,7 +1,7 @@
-package com.cinema.authmicroservice.security.filter;
+package com.cinema.usermicroservice.security.filter;
 
 import com.auth0.jwt.exceptions.JWTVerificationException;
-import com.cinema.authmicroservice.exception.EntityNotFoundException;
+import com.cinema.usermicroservice.exception.EntityNotFoundException;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import javax.servlet.FilterChain;

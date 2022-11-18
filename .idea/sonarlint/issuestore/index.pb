@@ -7,8 +7,6 @@ Yuser-service/src/main/java/com/cinema/usermicroservice/repository/CustomerRepos
 Luser-service/src/main/java/com/cinema/usermicroservice/dto/ResponseData.java,a\c\aca263853a0c0c1eabd1d547a45f2395c3bb791f
 É
 Suser-service/src/main/java/com/cinema/usermicroservice/service/EmployeeService.java,6\d\6de1a672eb5c11eccbc1aa7ca988ab3a3beeb72c
-â
-Yuser-service/src/main/java/com/cinema/usermicroservice/controller/CustomerController.java,5\d\5d2fdeae252286c4ad8d8495cba9a37ef040127b
 z
 Juser-service/src/main/java/com/cinema/usermicroservice/model/Customer.java,1\2\12da04eace358ce36f19d4d07e99a0bdb68536ae
 á
@@ -19,8 +17,6 @@ y
 Imovie-service/src/main/java/com/cinema/moviemicroservice/model/Genre.java,d\4\d4ddfdef78733bd588ece43d43146280bfec8517
 á
 Wuser-service/src/main/java/com/cinema/usermicroservice/service/CustomerServiceImpl.java,7\c\7cfdb73b067ee7a8ec7d309cbd75a10a8f7ed6f4
-{
-Kuser-service/src/main/java/com/cinema/usermicroservice/UserApplication.java,3\0\3088d7913953f63292c76a356444ade91662e6a8
 ç
 ]movie-service/src/main/java/com/cinema/moviemicroservice/exception/DataNotFoundException.java,3\5\35ede1feb532f6629fa70e1a4feab476cee58743
 à
@@ -65,11 +61,5 @@ Ymovie-service/src/main/java/com/cinema/moviemicroservice/service/ShowTimeServic
 Zmovie-service/src/main/java/com/cinema/moviemicroservice/controller/TheaterController.java,e\6\e602923476a3ee8b782f623a2a698250447bad72
 ~
 Nmovie-service/src/main/java/com/cinema/moviemicroservice/MovieApplication.java,c\a\ca2cada764923139ad71ec6e6631a99a1d656f93
-v
-Fauth-service/src/main/java/com/cinema/authmicroservice/model/User.java,b\e\be956ce18e56a5e4b4c8ac32e8933eb9e8d17442
-D
-user-service/pom.xml,d\2\d2f5d1978e5f519100a679c4109f89296278badc
-D
-auth-service/pom.xml,7\f\7f617cadbbc161fc020296c3a971388d61795426
 |
 Lmovie-service/src/main/java/com/cinema/moviemicroservice/model/ShowTime.java,7\e\7ed8ff2a14d23534289078cce34e902fabc93de2

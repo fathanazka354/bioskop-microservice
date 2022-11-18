@@ -1,4 +1,4 @@
-package com.cinema.authmicroservice.security.filter;
+package com.cinema.usermicroservice.security.filter;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
@@ -14,8 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Arrays;
 
-import static com.cinema.authmicroservice.security.SecurityConstant.BEARER;
-import static com.cinema.authmicroservice.security.SecurityConstant.GENERATED_KEY;
+import static com.cinema.usermicroservice.security.SecurityConstant.*;
 
 
 public class JWTAuthorizationFilter extends OncePerRequestFilter {

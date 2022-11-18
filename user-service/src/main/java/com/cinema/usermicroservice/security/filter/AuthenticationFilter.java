@@ -1,9 +1,9 @@
-package com.cinema.authmicroservice.security.filter;
+package com.cinema.usermicroservice.security.filter;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
-import com.cinema.authmicroservice.model.User;
-import com.cinema.authmicroservice.security.manager.CustomAuthenticationManager;
+import com.cinema.usermicroservice.model.User;
+import com.cinema.usermicroservice.security.manager.CustomAuthenticationManager;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.AllArgsConstructor;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Date;
 
-import static com.cinema.authmicroservice.security.SecurityConstant.*;
+import static com.cinema.usermicroservice.security.SecurityConstant.*;
 
 
 @AllArgsConstructor

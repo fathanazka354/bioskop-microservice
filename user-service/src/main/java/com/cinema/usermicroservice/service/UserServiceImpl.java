@@ -1,8 +1,8 @@
-package com.cinema.authmicroservice.service;
+package com.cinema.usermicroservice.service;
 
-import com.cinema.authmicroservice.exception.EntityNotFoundException;
-import com.cinema.authmicroservice.model.User;
-import com.cinema.authmicroservice.repository.UserRepository;
+import com.cinema.usermicroservice.exception.EntityNotFoundException;
+import com.cinema.usermicroservice.model.User;
+import com.cinema.usermicroservice.repository.UserRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import java.util.Optional;
 @Service
 @AllArgsConstructor
-public class UserServiceImpl implements UserService{
+public class UserServiceImpl implements UserService {
     private UserRepository userRepository;
     private BCryptPasswordEncoder bCryptPasswordEncoder;
 

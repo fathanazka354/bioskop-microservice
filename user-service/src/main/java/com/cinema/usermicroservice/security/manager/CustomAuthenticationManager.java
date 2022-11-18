@@ -1,7 +1,7 @@
-package com.cinema.authmicroservice.security.manager;
+package com.cinema.usermicroservice.security.manager;
 
-import com.cinema.authmicroservice.model.User;
-import com.cinema.authmicroservice.service.UserServiceImpl;
+import com.cinema.usermicroservice.model.User;
+import com.cinema.usermicroservice.service.UserServiceImpl;
 import lombok.AllArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
