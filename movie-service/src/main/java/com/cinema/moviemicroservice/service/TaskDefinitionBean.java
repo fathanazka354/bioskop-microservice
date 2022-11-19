@@ -1,5 +1,6 @@
-package com.cinema.moviemicroservice.dto;
+package com.cinema.moviemicroservice.service;
 
+import com.cinema.moviemicroservice.dto.TaskDefinition;
 import com.cinema.moviemicroservice.repository.ShowTimeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
