@@ -4,6 +4,7 @@ import com.cinema.moviemicroservice.exception.DataNotFoundException;
 import com.cinema.moviemicroservice.model.Genre;
 import com.cinema.moviemicroservice.model.Movie;
 import com.cinema.moviemicroservice.repository.MovieRepository;
+import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,8 +13,8 @@ import java.util.Optional;
 import java.util.Set;
 
 @Service
+@AllArgsConstructor
 public class MovieServiceImpl implements MovieService{
-    @Autowired
     MovieRepository movieRepository;
     @Override
     public Movie getMovieById(Long id) {

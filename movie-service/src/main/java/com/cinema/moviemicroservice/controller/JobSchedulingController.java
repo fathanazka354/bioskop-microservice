@@ -1,13 +1,13 @@
 package com.cinema.moviemicroservice.controller;
 
 import com.cinema.moviemicroservice.dto.TaskDefinition;
-import com.cinema.moviemicroservice.dto.TaskDefinitionBean;
+import com.cinema.moviemicroservice.service.TaskDefinitionBean;
 import com.cinema.moviemicroservice.service.TaskSchedulingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
-import java.util.UUID;
+
 @RestController
 @RequestMapping(path = "/schedule")
 public class JobSchedulingController {
